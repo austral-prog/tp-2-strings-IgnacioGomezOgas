@@ -7,4 +7,3 @@ def casting():
     print(f"Descuento: {dto}")
     print(f"Precio con descuento: {precio-dto}")
     print(f"Total: {(precio-dto)*numero}")
-casting()

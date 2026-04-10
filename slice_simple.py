@@ -9,6 +9,6 @@ def slice_simple():
     print(a)
     print(b)
     print(c)
-slice_simple()
+
 
 

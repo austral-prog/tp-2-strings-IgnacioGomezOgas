@@ -10,4 +10,3 @@ def names():
     print(nya.upper())
     print("\t"+nya.lower())
 
-names()

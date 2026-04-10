@@ -24,7 +24,6 @@ def ficha():
     #   - Código secreto: nombre invertido en mayúsculas
     #   - Las 3 notas, su suma, promedio y promedio entero
     #   - Cierre decorativo usando repetición de string ("=" * 24)
-    pass
     neim=input("Introduce el nombre completo del alumno: ")
     NyA=neim.title().strip()
     meil=input("Introduce el correo del alumno: ")
@@ -47,12 +46,12 @@ def ficha():
     usuariop=NyA.lower()
     usuario=usuariop[esp+1:]+"."+usuariop[:esp]
     print(f"Usuario: {usuario}")
-    print(f"Email valido: {"@" in correo}")
+    print(f"Email valido: {'@' in correo}")
     arren = correo.find("@")
     dominio=correo[arren+1:]
     print(f"Dominio: {dominio}")
-    print(F"Nombre para archivo: {NyA.replace(" ", "_")}")
-    print(F"Cantidad de a: {NyA.count("a")}")
+    print(F"Nombre para archivo: {NyA.replace(' ', '_')}")
+    print(F"Cantidad de a: {NyA.count('a')}")
     print(f"Codigo secreto: {NyA[::-1].upper()}")
     print(f"Nota 1: {nota1}")
     print(f"Nota 2: {nota2}")
@@ -64,5 +63,5 @@ def ficha():
     print(f"Promedio: {(nota1_int + nota2_int + nota3_int) / 3}")
     print(f"Promedio entero: {(nota1_int + nota2_int + nota3_int) // 3}")
     print("="*24)
-ficha()
+
 

@@ -1,7 +1,5 @@
 from gettext import find
 from itertools import count
-
-
 def string_methods():
     """Demuestra el uso de métodos de string: strip, lstrip, rstrip, upper, lower,
     title, find, replace, count, operador in, slicing con paso, reverso,
@@ -33,4 +31,3 @@ def string_methods():
     print(linea1)
     print(linea2)
     print(linea3)
-string_methods()
